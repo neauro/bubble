@@ -7,11 +7,39 @@ $gray: #454C4C;
   font-family: Cubano;
   src: url("../fonts/Cubano-Regular.otf") format("opentype");
 }
+* {
+  box-sizing:border-box;
+}
 body {
   color:$gray;
-  h1 {
-    font-weight:lighter;
-    font-family:Cubano;
-  }
+  background-color:#fff;
+  margin:0;
+}
+h1 {
+  font-weight:lighter;
+  font-family:Cubano;
+  text-align:center;
+  font-size:64pt;
+  margin:0px auto;
+  color:#fff;
+  text-shadow:1px 1px 1px #222;
+}
+h2 {
+  font-family:Roboto;
+  text-align:center;
 }
 
+.header {
+  padding:50px;
+  background-color:$green;
+  width:100%;
+  .logo {
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    border:2px solid #fff;
+    margin:0px auto;
+    height:100px;
+    width:100px;
+
+  }
+}
