@@ -45,6 +45,12 @@ h2 {
     margin: 20px auto;
     height: 100px;
     width: 100px; }
+  .header .banner {
+    background-color: #383838;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0; }
 
 .iphone {
   height: 568px;
