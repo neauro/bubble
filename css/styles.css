@@ -1,4 +1,8 @@
+@font-face {
+  font-family: Cubano;
+  src: url("../fonts/Cubano-Regular.otf") format("opentype"); }
 body {
-  background-color: red; }
+  color: #454c4c; }
   body h1 {
-    font-weight: lighter; }
+    font-weight: lighter;
+    font-family: Cubano; }

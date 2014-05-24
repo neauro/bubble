@@ -1,6 +1,17 @@
+$green: #7AC1A4;
+$yellow: #FDD200;
+$red: #E96D57;
+$gray: #454C4C;
+
+@font-face {
+  font-family: Cubano;
+  src: url("../fonts/Cubano-Regular.otf") format("opentype");
+}
 body {
-  background-color:red;
+  color:$gray;
   h1 {
     font-weight:lighter;
+    font-family:Cubano;
   }
 }
+
