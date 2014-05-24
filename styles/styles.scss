@@ -10,6 +10,9 @@ $gray: #454C4C;
 * {
   box-sizing:border-box;
 }
+html, body {
+  height:100%;
+}
 body {
   color:$gray;
   background-color:#fff;
@@ -18,28 +21,47 @@ body {
 h1 {
   font-weight:lighter;
   font-family:Cubano;
-  text-align:center;
   font-size:64pt;
   margin:0px auto;
+  margin-top:50px;
   color:#fff;
   text-shadow:1px 1px 1px #222;
 }
 h2 {
   font-family:Roboto;
-  text-align:center;
+  margin:10px;
+  margin-bottom:20px;
 }
 
 .header {
-  padding:50px;
+  height:100%;
+  padding:10px;
+  padding-top:3%;
+  overflow:hidden;
   background-color:$green;
   width:100%;
+  .right, .left {
+    height:100%;
+    width:49%;
+    vertical-align:middle;
+    display:inline-block;
+  }
   .logo {
     -webkit-border-radius:50%;
     border-radius:50%;
     border:2px solid #fff;
-    margin:0px auto;
+    margin:20px auto;
     height:100px;
-    width:100px;
-
+    width:100px; 
   }
+}
+
+
+.iphone {
+  height:568px;
+  width:320px;
+  background-color:#383838;
+  margin: 0px auto;
+  -webkit-border-radius:3px;
+  border-radius:3px;
 }
