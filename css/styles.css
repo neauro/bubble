@@ -29,6 +29,10 @@ h2 {
 h3 {
   font-size: 20pt; }
 
+h4 {
+  text-align: center;
+  font-size: 18pt; }
+
 .header {
   height: 100%;
   padding: 10px;
@@ -94,6 +98,9 @@ h3 {
     background-color: #e96d57; }
   .bit p {
     margin-bottom: 30px; }
+
+.footer {
+  text-align: center; }
 
 @media (min-width: 0px) and (max-width: 792px) {
   .header {
