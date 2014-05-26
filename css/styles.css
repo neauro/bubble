@@ -10,7 +10,7 @@ html, body {
 body {
   font-family: Roboto;
   color: #454c4c;
-  background-color: #fff;
+  background-color: #7ac1a4;
   margin: 0; }
 
 h1 {
@@ -29,15 +29,17 @@ h2 {
 .header {
   height: 100%;
   padding: 10px;
-  padding-top: 3%;
+  padding-top: 80px;
   overflow: hidden;
-  background-color: #7ac1a4;
   width: 100%; }
-  .header .right, .header .left {
+  .header .header-bit {
     height: 100%;
     width: 49%;
     vertical-align: middle;
     display: inline-block; }
+    .header .header-bit h1,
+    .header .header-bit h2 {
+      margin-left: 20%; }
   .header .logo {
     -webkit-border-radius: 50%;
     border-radius: 50%;
@@ -62,3 +64,21 @@ h2 {
   margin: 0px auto;
   -webkit-border-radius: 3px;
   border-radius: 3px; }
+
+.bit {
+  width: 100%;
+  height: 300px; }
+  .bit.yellow {
+    background-color: #fdd200; }
+
+@media (min-width: 0px) and (max-width: 792px) {
+  .header {
+    padding-top: 0; }
+    .header .header-bit {
+      display: block;
+      height: 39%;
+      width: 100%; }
+      .header .header-bit h1 {
+        margin-top: 0; }
+      .header .header-bit .iphone {
+        height: 412px; } }
