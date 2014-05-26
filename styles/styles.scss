@@ -79,6 +79,7 @@ h3 {
   width:350px;
   background-color:$black;
   margin:0px auto;
+  margin-bottom:30px;
 }
 .iphone {
   height:568px;
@@ -96,6 +97,7 @@ h3 {
   margin-top:-20px;
   padding-bottom:40px;
   padding:30px;
+  background-color:$green;
   &.yellow {
     background-color:$yellow;
   }
@@ -107,6 +109,9 @@ h3 {
   }
   &.red {
     background-color:$red;
+  }
+  p {
+    margin-bottom:30px;
   }
 }
 

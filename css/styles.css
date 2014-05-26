@@ -65,7 +65,8 @@ h3 {
   height: 300px;
   width: 350px;
   background-color: #383838;
-  margin: 0px auto; }
+  margin: 0px auto;
+  margin-bottom: 30px; }
 
 .iphone {
   height: 568px;
@@ -81,7 +82,8 @@ h3 {
   height: 100%;
   margin-top: -20px;
   padding-bottom: 40px;
-  padding: 30px; }
+  padding: 30px;
+  background-color: #7ac1a4; }
   .bit.yellow {
     background-color: #fdd200; }
   .bit.light-green {
@@ -90,6 +92,8 @@ h3 {
       float: right; }
   .bit.red {
     background-color: #e96d57; }
+  .bit p {
+    margin-bottom: 30px; }
 
 @media (min-width: 0px) and (max-width: 792px) {
   .header {
