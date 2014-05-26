@@ -107,15 +107,16 @@ h4 {
   }
   &.light-green {
     background-color:lighten($green,15%);
-    .half-bit.right {
-      float:right;
-    }
   }
   &.red {
     background-color:$red;
   }
   p {
     margin-bottom:30px;
+  }
+  .half-bit.right {
+    float:right;
+    padding-top:50px;
   }
 }
 

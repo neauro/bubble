@@ -92,12 +92,13 @@ h4 {
     background-color: #fdd200; }
   .bit.light-green {
     background-color: #aed9c8; }
-    .bit.light-green .half-bit.right {
-      float: right; }
   .bit.red {
     background-color: #e96d57; }
   .bit p {
     margin-bottom: 30px; }
+  .bit .half-bit.right {
+    float: right;
+    padding-top: 50px; }
 
 .footer {
   text-align: center; }
