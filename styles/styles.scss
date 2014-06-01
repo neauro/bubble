@@ -84,12 +84,19 @@ h4 {
   }
 }
 
-.img-stub {
+.img-wrapper {
   height:300px;
   width:350px;
-  background-color:$black;
   margin:0px auto;
   margin-bottom:30px;
+  img {
+    display:block;
+    margin:0px auto;
+  }
+  .john {
+    position:relative;
+    top:116px;
+  }
 }
 .iphone {
   margin: 0px auto;
@@ -110,7 +117,7 @@ h4 {
     background-color:$yellow;
   }
   &.light-green {
-    background-color:lighten($green,15%);
+    background-color:lighten($green,30%);
   }
   &.red {
     background-color:$red;
